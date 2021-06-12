@@ -103,6 +103,12 @@ a {
     .animation, .animation_tele, .animation_whats {
         width: 40px;
     }
+    .title {
+        font-size: 0.15rem;
+    }
+    .photo {
+        font-size: 0.4rem;
+    }
 }
 
 @keyframes text-flicker-in-glow {
