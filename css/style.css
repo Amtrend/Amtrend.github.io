@@ -99,6 +99,12 @@ a {
     animation: text-flicker-in-glow 2s linear infinite both;
 }
 
+@media (max-width: 500px) {
+    .animation, .animation_tele, .animation_whats {
+        width: 40px;
+    }
+}
+
 @keyframes text-flicker-in-glow {
     0% {
         opacity: 0;
