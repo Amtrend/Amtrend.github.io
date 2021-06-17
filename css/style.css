@@ -60,7 +60,7 @@ body {
 }
 
 .non-typed {
-    border-right: none;
+    border-right: none !important;
 }
 
 a {
