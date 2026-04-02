@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* DARK */
+:root {
+  --bg-page: #0f172a;
+  --bg-term: #1e1e1e;
+  --bg-term-header: #333333;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-1: #10b981;
+  --accent-2: #60a5fa;
+  --border: #334155;
+}
+
+/* UBUNTU */
+body.ubuntu {
+  --bg-page: #300a24;
+  --bg-term: #2c001e;
+  --bg-term-header: #4c1a3b;
+  --text-primary: #ffffff;
+  --text-secondary: #aea79f;
+  --accent-1: #e95420;
+  --accent-2: #f4a62a;
+  --border: #5e2750;
+}
+
+/* BODY */
+body {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  margin: 0;
+}
